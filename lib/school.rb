@@ -2,7 +2,7 @@
 class School
   attr_accessor= :name, :roster
  
-  GRADES: []
+
   
 def initialize(name)
   @name= (name)
