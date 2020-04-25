@@ -1,9 +1,7 @@
 # code here!
 class School
-  attr_accessor= :name, :roster
  
-
-  
+ 
 def initialize(name)
   @name= (name)
   @roster= {}
@@ -25,7 +23,6 @@ def add_student(name, grade)
             roster[grade] << name
         end
         roster
-        # binding.pry
     end
 
     def grade(grade)
