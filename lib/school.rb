@@ -17,8 +17,6 @@ def roster
   @roster
 end 
   
-  def add_student(name, grade)
-end 
   def grade= (grade)
     @grade = grade
     GRADES << grade
