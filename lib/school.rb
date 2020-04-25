@@ -17,9 +17,6 @@ def roster
   @roster
 end 
   
-  def grade= (grade)
-    @grade = grade
-    GRADES << grade
-  end 
+ 
   
 end
