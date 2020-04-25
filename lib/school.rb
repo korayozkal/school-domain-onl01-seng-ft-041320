@@ -24,5 +24,4 @@ end
     GRADES << grade
   end 
   
-end 
 end
